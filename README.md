@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Pillippa Pérez Pons, software engineer, with an animated black cat" width="100%" />
+  <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/header.svg" alt="Pillippa Pérez Pons, software engineer, with an animated black cat" width="100%" />
 </div>
 
 <br />
@@ -45,5 +45,5 @@ My cat Corchito reviews every PR. Verdict is usually "request changes".
 [Gallery](https://gallery.pillippa.cl/) · [LinkedIn](https://linkedin.com/in/ignaciapons) · [Niñas Pro](https://ninaspro.cl)
 
 <div align="center">
-  <img src="./assets/cat-walk.svg" alt="A black cat chasing a ball of yarn" width="100%" />
+  <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/cat-walk.svg" alt="A black cat chasing a ball of yarn" width="100%" />
 </div>
