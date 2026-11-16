@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/header-02.svg" alt="Pillippa Pérez Pons, software engineer, with an animated black cat" width="100%" />
+  <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/header-03.svg" alt="Pillippa Pérez Pons, software engineer, with an animated black cat" width="100%" />
 </div>
 
 <br />
 
-Hola! I'm **Pilly**, a frontend-focused software engineer with years building web products, design systems, and developer-facing experiences. Most recently at **DoorDash**, shipping React + TypeScript features on the Prism design system. Before that: fintech at **Smartbiz**, and a long run of full-stack work in Santiago, Chile.
+Hola! I'm **Pilly**, a software engineer with years building web products, design systems, and developer-facing experiences. Most recently at **DoorDash**, shipping React + TypeScript features on the Prism design system. Before that: fintech at **Smartbiz**, and a long run of full-stack work in Santiago, Chile.
 
 These days I'm exploring **AI agents and cybersecurity**.
 
