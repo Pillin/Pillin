@@ -45,8 +45,5 @@ My cat Corchito reviews every PR. Verdict is usually "request changes".
 [Gallery](https://gallery.pillippa.cl/) · [LinkedIn](https://linkedin.com/in/ignaciapons) · [Niñas Pro](https://ninaspro.cl)
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/cat-walk-dark.svg" />
-    <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/cat-walk.svg" alt="A black cat chasing a ball of yarn" width="100%" />
-  </picture>
+  <img src="https://pub-8ba489a51def449f9692e85581f9a0d2.r2.dev/github-readme/cat-walk.svg" alt="A black cat chasing a ball of yarn" width="100%" />
 </div>
