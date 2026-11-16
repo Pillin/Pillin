@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 1200 88" width="1200" height="88" role="img" aria-label="A black cat chasing a ball of yarn">
+  <defs>
+    <!-- cream rim so the black cat stays visible on dark backgrounds -->
+    <filter id="rim" x="-20%" y="-30%" width="140%" height="160%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="grown"/>
+      <feFlood flood-color="#F4F0E6"/>
+      <feComposite in2="grown" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <line x1="0" y1="72" x2="1200" y2="72" stroke="#6E7681" stroke-width="2" stroke-dasharray="6 8"/>
+
+  <g filter="url(#rim)">
+    <animateTransform attributeName="transform" type="translate" values="-160 0;1260 0" dur="14s" repeatCount="indefinite"/>
+
+    <!-- yarn ball -->
+    <g transform="translate(110 59)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="1s" repeatCount="indefinite"/>
+        <circle r="12" fill="#FF4FA3" stroke="#111" stroke-width="2.5"/>
+        <path d="M-9 -7 Q0 0 -6 10 M-2 -12 Q8 -2 4 12 M6 -10 Q12 0 10 6" fill="none" stroke="#111" stroke-width="1.8"/>
+      </g>
+    </g>
+    <path d="M98 66 Q70 76 40 70" fill="none" stroke="#FF4FA3" stroke-width="2"/>
+
+    <!-- cat -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.5s" repeatCount="indefinite"/>
+      <!-- back legs -->
+      <line x1="-22" y1="44" x2="-24" y2="70" stroke="#111" stroke-width="6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="20 -22 44;-20 -22 44;20 -22 44" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="18" y1="44" x2="20" y2="70" stroke="#111" stroke-width="6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-20 18 44;20 18 44;-20 18 44" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="-16" y1="44" x2="-16" y2="70" stroke="#111" stroke-width="6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-20 -16 44;20 -16 44;-20 -16 44" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="24" y1="44" x2="26" y2="70" stroke="#111" stroke-width="6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="20 24 44;-20 24 44;20 24 44" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <!-- tail -->
+      <path d="M-32 38 C-50 34 -54 14 -44 6" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="0 -32 38;-12 -32 38;0 -32 38" dur="1s" repeatCount="indefinite"/>
+      </path>
+      <!-- body -->
+      <ellipse cx="0" cy="40" rx="34" ry="14" fill="#111"/>
+      <!-- head -->
+      <circle cx="38" cy="28" r="14" fill="#111"/>
+      <polygon points="28,20 30,4 40,16" fill="#111"/>
+      <polygon points="40,16 48,3 50,20" fill="#111"/>
+      <ellipse cx="44" cy="26" rx="3" ry="3.5" fill="#FFD23F"/>
+      <rect x="27" y="37" width="20" height="4" rx="2" fill="#2D5BFF"/>
+    </g>
+  </g>
+</svg>
